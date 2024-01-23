@@ -32,8 +32,8 @@
     </script>
 </head>
 
-<body class="font-manrope max-w-[335px] lg:max-w-[1170px]  mx-auto">
-    <header>
+<body class="font-manrope mx-auto">
+    <header class=" max-w-[335px] lg:max-w-[1170px] mx-auto">
         <div class="navbar bg-base-100">
             <div class="navbar-start">
                 <div class="dropdown">
@@ -74,7 +74,7 @@
             <div>
                 <div class="carousel w-full mt-10 relative">
                     <div id="slide1"
-                        class="carousel-item relative h-[200px] w-full bg-[url(B9A3-Hockeys/Images/1.png)] lg:h-[550px] bg-no-repeat bg-cover object-cover">
+                        class="carousel-item relative h-[200px] w-full bg-[url(B9A3-Hockeys/Images/1.png)] lg:h-[550px] bg-no-repeat bg-cover object-cover rounded-2xl">
                         <!-- <img src="B9A3-Hockeys/Images/1.png" class="w-full " /> -->
                         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                             <a href="#slide2" class="btn btn-circle">❮</a>
@@ -104,7 +104,7 @@
         </section>
 
     </header>
-    <main class="mt-20">
+    <main class="mt-20  max-w-[335px] lg:max-w-[1170px] mx-auto">
         <div class="border-t border-b border-bord border-dashed border-opacity-60  text-center mt-10">
             <h2 class="text-[36px] font-extrabold pt-8">Professional Hockeys Club</h2>
             <p class="text-[#13181f] py-6">Flying pucks, thundering skates, champions crowned on frozen straits. Where
@@ -458,7 +458,7 @@
         </div>
         <!-- main bottom section started -->
         <div class="lg:flex mx-auto justify-around mt-10">
-            <div class="text-text gap-8 shadow-lg lg:w-[474px]">
+            <div class="text-text gap-8 shadow-lg rounded-lg lg:w-[474px]">
                 <div>
                     <div class="h-[216px] bg-[#BCED6D1A] bg-opacity-10 p-5 w-[320px] lg:m-8 m-2 ">
                         <img src="B9A3-Hockeys/Images/Group 1171275317.png" alt="">
@@ -513,13 +513,14 @@
                     <p class="font-extrabold text-text text-2xl">
                         Message
                     </p>
-                    <textarea placeholder="Enter your message" class="textarea textarea-bordered textarea-lg w-full bg-[#131318] bg-opacity-5  " ></textarea>
+                    <textarea placeholder="Enter your message"
+                        class="textarea textarea-bordered textarea-lg w-full bg-[#131318] bg-opacity-5  "></textarea>
                     <button class="text-white font-bold btn bg-brick w-full">Send Message</button>
                 </div>
-              
+
             </div>
         </div>
-        <div class="mt-9 text-center gap-6 shadow-lg  bg-[#131318] bg-opacity-5 rounded-xl ">
+        <div class="mt-9 text-center gap-6 shadow-lg  bg-[#131318] bg-opacity-5 rounded-xl pb-5">
             <h3 class="text-[24px] font-extrabold pt-8 ">Social Media</h3>
             <p class=" pt-5 ">
                 <i class="fa-brands fa-twitter px-2"></i>
@@ -529,9 +530,52 @@
             </p>
         </div>
     </main>
-    <footer>
 
+    <footer
+        class="footer p-10   text-[#FFFFFF99] opacity-60 bg-[#131318] mt-10  max-w-full lg:max-w-full">
+        <aside class="col-span-2  mx-auto">
+            <h1 class="text-white text-3xl font-extrabold mx-auto">Get In Touch</h1>
+            
+            <p class="mx-auto">Across the screen, across the miles, a whisper or a shout,<br> let's bridge the gap, weave stories, and make dreams take flight.</p>
+            <div class="mx-auto">
+            <p>
+                <i class="fa-solid fa-envelope"></i>
+                hockeys@support.com
+            </p>
+            <p>
+                <i class="fa-solid fa-phone"></i>
+                (+62) 123-321-543
+            </p>
+            </div>
+        </aside>
+        
+        <nav class="col-span-1 mx-auto">
+            <header class=" text-white text-xl font-bold">Company</header>
+            <a class="link link-hover">About Us</a>
+            <a class="link link-hover">Leadership</a>
+            <a class="link link-hover">Careers</a>
+            <a class="link link-hover">News & Article</a>
+            <a class="link link-hover">Legal Notice</a>
+        </nav>
+        <nav class="col-span-1 mx-auto">
+            <header class=" text-white text-xl font-bold">Support</header>
+          
+            <a class="link link-hover">Help Center</a>
+            <a class="link link-hover">FAQ</a>
+            <a class="link link-hover">Ticket Support</a>
+            <a class="link link-hover">Contact Us</a>
+        </nav>
+
+        <nav class="mx-auto col-span-2">
+            <header class=" text-white text-xl font-bold">Services</header>
+            <a class="link link-hover">Academy</a>
+            <a class="link link-hover">Group Lesson</a>
+            <a class="link link-hover">Private Lesson</a>
+            <a class="link link-hover">Hockeys for kids</a>
+            <a class="link link-hover">Hockeys for Adult</a>
+        </nav>
     </footer>
+
 </body>
 
 </html>
